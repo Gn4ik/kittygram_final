@@ -44,5 +44,5 @@ jobs:
         run: |
           python -m ruff check backend/
           cd backend/
-          python manage.py cats/test
+          python manage.py test
 
